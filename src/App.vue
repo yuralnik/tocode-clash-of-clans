@@ -1,10 +1,14 @@
 <template>
-  <div class="wapper">
+  <div class="wrapper">
     <Header />
     <div class="wrapper-content">
+      <section>
       <div class="container">
+        <div class="view-sm isCenter">
         <router-view />
+        </div>
       </div>
+      </section>
     </div>
     <Footer />
   </div>
